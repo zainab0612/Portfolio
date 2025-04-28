@@ -1,5 +1,5 @@
 .contact-section {
-  @apply w-full flex flex-col lg:flex-row pt-10 md:mt-20 lg:mt-0 px-10 lg:p-10 xl:px-0 gap-8 xl:gap-4 h-[420px] text-white;
+  @apply w-full flex flex-col lg:flex-row pt-10 lg:mt-0 px-10 lg:p-10 xl:px-0 gap-8 xl:gap-4 h-[420px] text-white;
 }
 
 .contact-left {
@@ -31,7 +31,7 @@
 }
 
 .contact-card {
-  @apply md:w-[45%] lg:w-[55%] xl:w-[45%] border border-white p-3;
+  @apply md:w-[45%] lg:w-[55%] xl:w-[50%] 2xl:w-[55%] border border-white p-3;
 }
 
 .contact-card-title {
@@ -50,8 +50,12 @@
   @apply hover:invert hover:brightness-0 hover:duration-300 cursor-pointer;
 }
 
+.contact-left {
+  @apply ml-1;
+}
+
 .contact-text {
-  @apply text-white text-opacity-50 hover:text-opacity-100 duration-200;
+  @apply text-white text-opacity-50 hover:text-opacity-100 duration-200 text-sm 2xl:text-base;
 }
 
 .quote-section {

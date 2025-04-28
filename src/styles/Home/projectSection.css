@@ -19,7 +19,7 @@
 }
 
 .project-card {
-  @apply w-[90%] md:w-[45%] xl:w-[29%] border border-white;
+  @apply w-[90%] md:w-[45%] xl:w-[30%] border border-white;
 }
 
 .project-image {

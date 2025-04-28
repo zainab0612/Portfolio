@@ -23,6 +23,15 @@ const config: Config = {
             fontFamily: {
                 fira: ["Fira Code", "monospace"],
             },
+            keyframes: {
+                loading: {
+                    '0%': { backgroundPosition: '0% 0' },
+                    '100%': { backgroundPosition: '300% 0' }
+                }
+            },
+            animation: {
+                'loading-dots': 'loading 1s linear infinite'
+            }
         },
     },
     plugins: [],

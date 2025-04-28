@@ -28,7 +28,7 @@
   @apply text-white;
 }
 .header-icons {
-  @apply flex flex-col gap-2;
+  @apply flex flex-col items-center gap-2;
 }
 
 .header-icon {

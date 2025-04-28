@@ -35,7 +35,7 @@
 }
 
 .skills-column-2 {
-  @apply gap-4 md:w-[30%] lg:w-[40%] xl:w-[30%];
+  @apply gap-4 md:w-[33%] lg:w-[40%] xl:w-[35%];
 }
 
 .skills-column-3 {

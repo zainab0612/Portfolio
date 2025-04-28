@@ -38,7 +38,7 @@ export const ContactSection = () => {
                         <div className="contact-item pr-2">
                             <a href="mailto:znaeem0612@gmail.com" className="contact-link">
                                 <Image src={email} alt="EMAIL" className="contact-icon" />
-                                <span className="contact-text">znaeem0612@gmail.com</span>
+                                <span className="contact-text contact-left">znaeem0612@gmail.com</span>
                             </a>
                         </div>
                     </div>
