@@ -23,7 +23,7 @@ export const HeroSection = () => {
                 </div>
                 <div className="intro-right">
                     <div className="intro-image-container">
-                        <Image src={Picture} alt="Picture" className='p-10' />
+                        <Image src={Picture} alt="Picture" className='md:p-10' />
                     </div>
                     <div className="intro-banner">
                         <div className="intro-banner-bar"></div>

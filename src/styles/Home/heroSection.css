@@ -53,7 +53,7 @@
 }
 
 .intro-banner {
-  @apply flex justify-center items-center border-[1px] border-white bg-secondary z-0 px-4 md:px-20 lg:px-10 relative -top-10 lg:-top-5 xl:-top-10 xl:left-5;
+  @apply flex justify-center items-center border-[1px] border-white bg-secondary z-0 px-4 md:px-20 lg:px-10 relative -top-10 lg:-top-10 xl:left-5;
 }
 
 .intro-banner-bar {
