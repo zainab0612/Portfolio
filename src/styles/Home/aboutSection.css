@@ -31,7 +31,7 @@
 }
 
 .about-button {
-  @apply bg-transparent border-[1px] border-primary text-white py-2 px-4 hover:bg-primary hover:bg-opacity-50 hover:duration-300;
+  @apply bg-transparent border-[1px] border-primary text-white py-2 px-4 hover:bg-primary hover:bg-opacity-50 hover:duration-500 transition-transform transform hover:scale-105;
 }
 
 .about-right {

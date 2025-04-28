@@ -32,5 +32,5 @@
 }
 
 .header-icon {
-  @apply hover:invert hover:brightness-0 hover:duration-300 cursor-pointer;
+  @apply hover:invert hover:brightness-0 hover:duration-300 cursor-pointer transition-transform transform hover:scale-110;
 }
