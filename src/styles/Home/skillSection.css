@@ -1,0 +1,55 @@
+.skills-section {
+  @apply w-full flex flex-col lg:flex-row justify-center items-center p-10 lg:px-10 xl:px-0 text-white gap-10 lg:gap-4;
+}
+
+.skills-left {
+  @apply w-full lg:w-[40%] flex flex-col gap-4 lg:gap-10;
+}
+
+.skills-heading {
+  @apply flex items-center gap-4;
+}
+
+.skills-title {
+  @apply text-xl md:text-4xl font-semibold lg:leading-[3rem] text-white tracking-wide;
+}
+
+.skills-line {
+  @apply w-80 h-[2px] bg-primary;
+}
+
+.skills-image {
+  @apply w-full flex justify-center items-center;
+}
+
+.skills-right {
+  @apply w-full xl:w-[60%] flex flex-col md:flex-row justify-center gap-4;
+}
+
+.skills-column {
+  @apply flex flex-col w-full;
+}
+
+.skills-column-1 {
+  @apply md:w-[25%] lg:w-[30%] xl:w-[25%];
+}
+
+.skills-column-2 {
+  @apply gap-4 md:w-[30%] lg:w-[40%] xl:w-[30%];
+}
+
+.skills-column-3 {
+  @apply gap-4 md:w-[25%] lg:w-[30%] xl:w-[25%];
+}
+
+.skills-box {
+  @apply w-full border border-white;
+}
+
+.skills-box-header {
+  @apply font-bold px-2 py-1 border-b border-white text-white;
+}
+
+.skills-box-content {
+  @apply px-2 py-2 text-white text-opacity-50;
+}

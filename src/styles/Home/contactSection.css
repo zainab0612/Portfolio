@@ -1,0 +1,63 @@
+.contact-section {
+  @apply w-full flex flex-col lg:flex-row pt-10 md:mt-20 lg:mt-0 px-10 lg:p-10 xl:px-0 gap-8 xl:gap-4 h-[420px] text-white;
+}
+
+.contact-left {
+  @apply w-full flex flex-col gap-10 lg:gap-14 lg:w-1/2;
+}
+
+.contact-heading {
+  @apply flex items-center gap-4;
+}
+
+.contact-title {
+  @apply text-xl md:text-4xl font-semibold lg:leading-[3rem] text-white tracking-wide;
+}
+
+.contact-line {
+  @apply w-64 h-[2px] bg-primary;
+}
+
+.contact-content {
+  @apply flex flex-col gap-4 lg:gap-8 w-full md:w-[80%] lg:w-[90%];
+}
+
+.contact-paragraph {
+  @apply text-sm md:text-lg text-white text-opacity-50;
+}
+
+.contact-right {
+  @apply flex flex-col lg:justify-center lg:items-end lg:w-1/2 lg:pr-10;
+}
+
+.contact-card {
+  @apply md:w-[45%] lg:w-[55%] xl:w-[45%] border border-white p-3;
+}
+
+.contact-card-title {
+  @apply font-bold px-2 py-1 text-white;
+}
+
+.contact-item {
+  @apply flex items-center py-1 gap-1;
+}
+
+.contact-link {
+  @apply flex items-center;
+}
+
+.contact-icon {
+  @apply hover:invert hover:brightness-0 hover:duration-300 cursor-pointer;
+}
+
+.contact-text {
+  @apply text-white text-opacity-50 hover:text-opacity-100 duration-200;
+}
+
+.quote-section {
+  @apply w-full flex justify-center items-center bg-secondary pb-10;
+}
+
+.quote-image {
+  @apply w-[90%] lg:w-[70%];
+}
