@@ -31,15 +31,29 @@
 }
 
 .intro-right {
-  @apply flex flex-col justify-center items-center lg:w-1/2;
+  @apply flex flex-col justify-center items-center lg:w-1/2 transition-all duration-300 p-10;
+  animation: floating 3s ease-in-out infinite;
 }
 
 .intro-image-container {
   @apply xl:relative h-full w-[90%] lg:w-full flex justify-center items-center;
 }
 
+@keyframes floating {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+  25% {
+    transform: translateY(-10px) rotate(1deg);
+  }
+  75% {
+    transform: translateY(10px) rotate(-1deg);
+  }
+}
+
 .intro-banner {
-  @apply flex justify-center items-center border-[1px] border-white bg-secondary z-0 px-4 md:px-20 lg:px-10 relative -top-10 lg:-top-5 xl:-top-14 xl:left-5;
+  @apply flex justify-center items-center border-[1px] border-white bg-secondary z-0 px-4 md:px-20 lg:px-10 relative -top-10 lg:-top-5 xl:-top-10 xl:left-5;
 }
 
 .intro-banner-bar {
